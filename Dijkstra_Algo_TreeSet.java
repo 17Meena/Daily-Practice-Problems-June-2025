@@ -1,5 +1,6 @@
 import java.util.*;
-
+//Dijkstara's algo using Treeset(set method) -- not faster then pq method because the time saved in reducing some iterations is overtaken by 
+//the time taken to remove from set(of logn order)
 class Pair{
     int dist;
     int node;

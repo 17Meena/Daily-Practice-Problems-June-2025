@@ -1,5 +1,5 @@
-import java.util.concurrent.PriorityBlockingQueue;
-
+import java.util.*;
+//Dijkstra's algo using Priority Queue
 class Pair{
     int distance;
     int node;

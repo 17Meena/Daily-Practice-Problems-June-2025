@@ -8,6 +8,8 @@ class Tuple{
         this.third = t;
     }
 }
+
+//TC -- ElogV -- (n x m x 4 log(n x m))
 class Solution {
     public int minimumEffortPath(int[][] heights) {
         int n = heights.length;

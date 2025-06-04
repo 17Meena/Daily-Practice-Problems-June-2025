@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+import java.util.*;
 
 class Pair{
     int first; //distance
@@ -10,6 +10,7 @@ class Pair{
     }
 }
 
+//TC -- ElogV + N
 class Solution{
     public static List<Integer> shortestPath(int n, int m, int[][] edges){
         ArrayList<ArrayList<Pair>> adj = new ArrayList<>();

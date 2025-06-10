@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution{
+    //TC -- O(V x E)
     static int[] bellman_ford(int V, ArrayList<ArrayList<Integer>> edges, int S){
         int[] dist = new int[V];
         for(int i=0; i<V; i++){
